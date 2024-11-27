@@ -1,5 +1,5 @@
 {% set name = "t4" %}
-{% set version = "2.3.1" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mono/t4/archive/v{{ version }}.tar.gz
-  sha256: 2d157eef563c01dc80e8f174c6d9caa0b12aaf5d10944d392dc1a26807712cc7
+  sha256: 1608d5419321e430b1db2188b2dc8fb1e47f48b0057404df738bac3c50b3d273
 
 build:
   noarch: generic
