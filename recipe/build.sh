@@ -27,3 +27,5 @@ EOF
 
 # Download dependency licenses wtih dotnet-project-licenses
 dotnet-project-licenses --input dotnet-t4/dotnet-t4.csproj -t -d license-files
+
+rm ${PREFIX}/bin/dotnet
